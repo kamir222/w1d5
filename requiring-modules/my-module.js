@@ -2,12 +2,9 @@
 //the function should invoke a private function that's defined in your module
 //(not exported from it).
 
-//function sum (x, y) {
-//  return x + y;
-//} 
+//PRIVATE FUNCTION 
+function sum (x, y) {
+  return x + y;
+} 
 
-module.exports ={
-  sum : function (x, y) {
-    return x+y;
-  }
-}
+exports.sum = sum;
